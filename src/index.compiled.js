@@ -59,7 +59,7 @@ exports.store = void 0;
 
 var _redux = require("redux");
 
-var _boardSlice = require("../features/board/boardSlice.js.js");
+var _boardSlice = require("../features/board/boardSlice.js");
 
 var rootReducer = (0, _redux.combineReducers)({
   board: _boardSlice.boardReducer
@@ -77,11 +77,11 @@ exports.Board = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
-var _CardRow = require("./cardRow/CardRow.js.js");
+var _CardRow = require("./cardRow/CardRow.js");
 
 var _reactRedux = require("react-redux");
 
-var _boardSlice = require("./boardSlice.js.js");
+var _boardSlice = require("./boardSlice.js");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
@@ -366,7 +366,7 @@ exports.CardRow = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
-var _Card = require("./card/Card.js.js");
+var _Card = require("./card/Card.js");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
@@ -473,7 +473,7 @@ var _react = _interopRequireDefault(require("react"));
 
 var _reactRedux = require("react-redux");
 
-var _boardSlice = require("../board/boardSlice.js.js");
+var _boardSlice = require("../board/boardSlice.js");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
